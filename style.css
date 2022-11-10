@@ -44,6 +44,11 @@ a:hover{
     color:#28ea68;
     font-weight: bold;
 }
+
+ul{ 
+    list-style-type: none;
+  }
+  
 body {
   font-family: "Poppins", sans-serif;
 }
