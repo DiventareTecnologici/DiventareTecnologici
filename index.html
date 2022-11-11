@@ -10,24 +10,28 @@
     <title>Diventare Tecnologici</title>
 </head>
 <body class="bg-blue">
-    <nav class="bg-green position-fixed"></nav>
-    <div class="hamburger-menu ">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-            <span></span>
-        </label>
+    <nav class="position-fixed w-100 bg-green t-0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
-        <ul class="menu__box">
-            <li><a class="menu__item" href="index.html">Home</a></li>
-            <li><a class="menu__item" href="#">L'idea</a></li>
-            <li><a class="menu__item" href="#">Come iniziare</a></li>
-            <li><a class="menu__item" href="#lezioni">Le lezioni</a></li>
-            <li><a class="menu__item" href="#contatti">Contatti</a></li>
-        </ul>
-        <img src="navBar logo.png" class="position-fixed end-0 top-0" width="60px">
-    </div>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="navBar logo.png" alt="" width="40px"></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="#">Come iniziare</a>
+                <a href="#lezioni">Le lezioni</a>
+                <a href="#contatti">Contatti</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+   
     
-    <div class="container">
+    <div class="container pt-5">
         <div class="mt-5 p-2 title fw-bold text-neutral">Il corso per diventare <span class="text-green">Tecnologici</span></div>
         
         <div class="p-3 text-neutral fw-bold mt-5 fs-2">Come iniziare:</div>
@@ -35,8 +39,8 @@
         <p class="text-neutral p-3 fs-5">Se i passaggi risultano troppo complessi non c'è problema, ecco il video spiegazione: <a href="">Clicca qui per il video</a></p>
         
         <div class="p-3 text-neutral fw-bold mt-5 fs-2" id="lezioni">Le lezioni: </div>
-        <div class="text-neutral p-3 fs-5">Lezione 01: <a href="https://download1078.mediafire.com/bqjy2gsnwgqg/lrebx4lyx9at3s7/Lezione01.pdf">Come muoversi nelle schermate dello smartphone</a></div>
-        <div class="text-neutral p-3 fs-5">Lezione 02: <a href="https://download849.mediafire.com/cabwfo7ftjig/ocp4uoz0xt5hhcj/Lezioni+02.pdf">Tutti i tasti dello smartphone</a></div>
+        <div class="text-neutral p-3 fs-5">Lezione 01: <a href="https://download1078.mediafire.com/92b9ig91ce6g/lrebx4lyx9at3s7/Lezione01.pdf">Come muoversi nelle schermate dello smartphone</a></div>
+        <div class="text-neutral p-3 fs-5">Lezione 02: <a href="https://download2283.mediafire.com/ico3ldkh77ag/ocp4uoz0xt5hhcj/Lezioni+02.pdf">Tutti i tasti dello smartphone</a></div>
         <div class="text-neutral p-3 fs-5">Lezione 03: <a href="https://download1585.mediafire.com/g03nx5gc3d4g/uz2zxz14cqpes7d/Lezioni+03.pdf">Linguaggio e terminologia</a></div>
         
         <div>
@@ -80,5 +84,6 @@
         </div>
     
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>

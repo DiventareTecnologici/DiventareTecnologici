@@ -51,6 +51,7 @@ ul{
   
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 601px) {
     .title{
@@ -73,4 +74,8 @@ body {
     .title > span{
         font-size: 45px;
     }
+}
+
+nav{
+    top: 0;
 }
